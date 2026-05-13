@@ -1,4 +1,4 @@
-let chave = "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"
+let chave = "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"
 let endereco = "https://api.groq.com/openai/v1/chat/completions"
 
 async function gerarCodigo() {
@@ -10,7 +10,7 @@ async function gerarCodigo() {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
-            "Authorization": "Bearer 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"
+            "Authorization": "Bearer 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"
         },
         body: JSON.stringify({
             "model": "llama-3.3-70b-versatile",
